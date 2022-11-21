@@ -1,0 +1,22 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	franmoreno.local. admin.franmoreno.local. (
+			20221120	; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	franmoreno.local.
+254	IN	PTR	dns.
+253	IN	PTR	dns2.
+
+1	IN	PTR	pc1.
+2	IN	PTR	pc2.
+3	IN	PTR	pc3.
+4	IN	PTR	pc4.
+100	IN	PTR	ftp.
+100	IN	PTR	www.
+100	IN	PTR	moodle.
