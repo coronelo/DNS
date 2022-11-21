@@ -1,0 +1,4 @@
+Es importante saber que:
+cambiar el link del resolve
+cambiar las ip de netplan
+
