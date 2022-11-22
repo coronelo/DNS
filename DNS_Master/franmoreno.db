@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	franmoreno.local. root.franmoreno.local. (
-			20221120	; Serial
+			20221121	; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -11,6 +11,7 @@ $TTL	604800
 ;
 @	IN	NS	franmoreno.local.
 @	IN	A	192.168.1.254
+
 dns	IN	A	192.168.1.254
 dns2	IN	A	192.168.1.253
 
@@ -18,7 +19,7 @@ pc1	IN	A	192.168.1.1
 pc2	IN	A	192.168.1.2
 pc3	IN	A	192.168.1.3
 pc4	IN	A	192.168.1.4
-ftp	IN	A	192.168.1.100
-www	IN	CNAME	ftp
-moodle	IN	CNAME	ftp
-		
+www	IN	A	192.168.1.100
+ftp	IN	CNAME	www
+moodle	IN	CNAME	www
+
