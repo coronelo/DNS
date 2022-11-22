@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=h9zbSTQIdrw
+
+para problemas soluciones:
+No crea el Key-->  https://forum.netgate.com/topic/153869/dnssec-keygen-unknown-algorithm-hmac-md5/4
